@@ -1,0 +1,369 @@
+'''from playwright.sync_api import sync_playwright, TimeoutError
+import os
+import time
+import requests
+import traceback
+import sys
+from datetime import datetime
+import pytz
+from checker import get_links
+
+# ================= TELEGRAM CONFIG =================
+BOT_TOKEN = "8347404520:AAEeTkAPPKsMH-7DN5gJMqk7NFVapaok_aA"
+GROUP_CHAT_ID = -1003625299691   # supergroup ID
+
+def send_message(text):
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    try:
+        r = requests.post(
+            url,
+            json={"chat_id": GROUP_CHAT_ID, "text": text},
+            timeout=15
+        )
+        print("Telegram:", r.status_code, r.text)
+    except Exception as e:
+        print("Telegram ERROR:", e)
+
+def send_photo(path, caption):
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
+    try:
+        with open(path, "rb") as f:
+            requests.post(
+                url,
+                files={"photo": f},
+                data={"chat_id": GROUP_CHAT_ID, "caption": caption},
+                timeout=30
+            )
+    except Exception as e:
+        print("Photo send ERROR:", e)
+
+# ================= START DEBUG =================
+send_message("🚀 DEBUG: screenshot_checker.py started")
+
+# ================= PATHS =================
+SCREENSHOT_DIR = "/app/screenshots"
+os.makedirs(SCREENSHOT_DIR, exist_ok=True)
+
+# ================= LINKS =================
+URLS = get_links()
+
+# ================= TIME =================
+ist = pytz.timezone("Asia/Kolkata")
+now_ist = datetime.now(ist).strftime("%d-%m-%Y %I:%M %p IST")
+
+# ================= MAIN LOGIC =================
+try:
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu"
+            ]
+        )
+
+        page = browser.new_page()
+        results = []
+
+        send_message("🟢 Browser launched successfully")
+
+        for idx, url in enumerate(URLS, start=1):
+            send_message(f"🔍 Checking {idx}/{len(URLS)}")
+
+            status = "NO"
+            try:
+                page.goto(url, timeout=45000, wait_until="domcontentloaded")
+                status = "YES"
+            except Exception as e:
+                print("Navigation failed:", e)
+
+            path = f"{SCREENSHOT_DIR}/{idx:02d}.png"
+            screenshot_taken = False
+            try:
+                page.screenshot(path=path, timeout=10000)
+                screenshot_taken = True
+            except Exception as e:
+                print("screenshot failed:", e)
+            if screenshot_taken:
+                send_photo(
+                    path,
+                    f"{idx}. {url}\nStatus: {status}\nChecked: {now_ist}"
+                )
+            else:
+                send_message(
+                    f"Screenshot failed\n{idx}. {url}\nStatus: {status}\nChecked: {now_ist}"
+                )
+            results.append((url, status))
+            time.sleep(3)
+
+        browser.close()
+
+
+except Exception as e:
+    send_message("❌ SCRIPT CRASHED")
+    send_message(str(e))
+    send_message(traceback.format_exc())
+    sys.exit(1)'''
+
+from playwright.sync_api import sync_playwright, TimeoutError
+import os
+import time
+import requests
+from datetime import datetime
+import pytz
+from datetime import date
+
+# ================= TELEGRAM =================
+BOT_TOKEN = "8347404520:AAEeTkAPPKsMH-7DN5gJMqk7NFVapaok_aA"
+GROUP_CHAT_ID = "-1003625299691"
+
+def send_message(text):
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    requests.post(url, json={"chat_id": GROUP_CHAT_ID, "text": text}, timeout=15)
+
+def send_photo(path, caption):
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
+    with open(path, "rb") as f:
+        requests.post(
+            url,
+            files={"photo": f},
+            data={"chat_id": GROUP_CHAT_ID, "caption": caption},
+            timeout=30
+        )
+
+# ================= CONFIG =================
+TEST_URL = "https://publichealthworldconference.com"
+SCREENSHOT_DIR = "/app/screenshots"
+os.makedirs(SCREENSHOT_DIR, exist_ok=True)
+
+ist = pytz.timezone("Asia/Kolkata")
+now_ist = datetime.now(ist).strftime("%d-%m-%Y %I:%M %p IST")
+
+# ================= MAIN =================
+with sync_playwright() as p:
+    browser = p.chromium.launch(
+        headless=True,   # MUST BE TRUE IN DOCKER
+        args=["--no-sandbox", "--disable-dev-shm-usage"]
+    )
+
+    page = browser.new_page()
+    send_message("🧪 TEST MODE: Starting single-site registration flow")
+
+    print("Opening site...")
+    page.goto(TEST_URL, timeout=60000, wait_until="domcontentloaded")
+
+    # ---------- STEP 1: CLICK REGISTER ----------
+
+    clicked = False
+
+    register_selectors = [
+        "a:has-text('Register')",
+        "button:has-text('Register')",
+        "a:has-text('Buy Ticket')",
+        "button:has-text('Buy Ticket')"
+    ]
+
+    for sel in register_selectors:
+        try:
+            page.locator(sel).first.scroll_into_view_if_needed()
+            page.locator(sel).first.click(timeout=5000)
+            page.wait_for_url("**registration**", timeout=20000)
+            print(f"Clicked register using selector: {sel}")
+            clicked = True
+            break
+        except:
+            continue
+    if not clicked:
+        send_message("❌ Register button not found")
+        browser.close()
+        exit(1)
+
+    print("STEP 1.5: Waiting for registration form to appear")
+
+    # Trigger lazy load
+    for _ in range(5):
+        page.mouse.wheel(0, 800)
+        time.sleep(1)
+
+    # Stable indicator
+    page.wait_for_selector("text=Online Registration", timeout=30000)
+
+    print("Registration form detected")
+        
+    # ================= STEP 2: Fill full basic form =================
+    print("STEP 2: Filling basic registration form (SAFE SELECTORS)")
+
+    # Wait until form is really visible
+    page.wait_for_selector("input[placeholder='Name']", timeout=30000)
+
+    # Caption / Title
+    #page.fill("input[placeholder='--Caption--']", "Dr.")
+
+    # Name
+    page.fill("input[placeholder='Name']", "PGC sites monitoring")
+
+    # Email
+    page.fill("input[placeholder='Email']", "pbi@gmail.com")
+
+    # Alternative Email
+    page.fill("input[placeholder='Alternative Email']", "pgc@gmail.com")
+
+    # Phone
+    page.fill("input[placeholder='Phone']", "9456781233")
+
+    # WhatsApp
+    page.fill("input[placeholder='WhatsApp Number']", "9456781233")
+
+    # Country (dropdown-style input)
+    # page.click("input[placeholder='Select Country']")
+    #page.fill("input[placeholder='Select Country']", "India")
+    #page.keyboard.press("Enter")
+
+    # Institution
+    #page.fill("input[placeholder='Enter Institution']", "pbi")
+
+    # Screenshot proof
+    step2_path = f"{SCREENSHOT_DIR}/step2_basic_form.png"
+    page.screenshot(path=step2_path, full_page=True)
+
+    send_photo(
+        step2_path,
+        f"✅ STEP 2 OK – Basic registration form filled\n{TEST_URL}\nChecked: {now_ist}"
+    )
+    # ===========================================================
+    # ================= STEP 3: Select Role =================
+    print("STEP 3: Selecting pricing role (radio button)")
+
+    ROLE_OPTIONS = [
+        "Oral Presenter (In-Person)",
+        "Oral Presenter (Virtual)",
+        "Poster Presenter (In-Person)",
+        "Poster Presenter (Virtual)",
+        "Listener (In-Person)",
+        "Listener (Virtual)",
+        "Exhibitor/Sponsor (In-Person)",
+        "Exhibitor/Sponsor (Virtual)",
+        "Others",
+    ]
+
+    from datetime import date
+    today_index = date.today().toordinal()
+    ROLE_TEXT = ROLE_OPTIONS[today_index % len(ROLE_OPTIONS)]
+
+    print(f"Today's pricing role: {ROLE_TEXT}")
+
+    # Scroll to pricing section
+    page.locator("text=Early Bird Registration").scroll_into_view_if_needed()
+
+    # Click ONLY the radio button label
+    page.locator(
+        "section:has-text('Early Bird') label",
+        has_text=ROLE_TEXT
+    ).first.click()
+
+    print(f"Pricing role selected: {ROLE_TEXT}")
+
+    # ===================== STEP 4: Select Accommodation =================
+       
+    print("STEP 4: Selecting accommodation")
+
+    from datetime import date
+
+    ACCOMMODATION_TYPES = [
+        "single",
+        "double",
+        "triple"
+    ] 
+
+    DAY_INDEX = date.today().toordinal()
+    TODAY_ACCOM = ACCOMMODATION_TYPES[DAY_INDEX % len(ACCOMMODATION_TYPES)]
+
+    print(f"Today's accommodation: {TODAY_ACCOM}")
+
+    # Scroll to accommodation section
+    page.locator("text=Looking for Accommodation").scroll_into_view_if_needed()
+    time.sleep(1)
+
+    # Map to input IDs used on the site
+    ACCOM_INPUT_IDS = {
+        "single": "#accom_single",
+        "double": "#accom_double",
+        "triple": "#accom_triple",
+    }
+
+    radio_selector = ACCOM_INPUT_IDS[TODAY_ACCOM]
+
+    # Click radio input directly (bypasses visibility issues)
+    page.locator(radio_selector).click(force=True)
+    time.sleep(1)
+
+    print(f"Accommodation selected: {TODAY_ACCOM.capitalize()} Occupancy")
+
+    # -------- Set Check-in / Check-out dates safely --------
+
+    CHECKIN_DATE = "2026-07-16"
+    CHECKOUT_DATE = "2026-07-18"
+
+    page.evaluate(
+        """
+        (dateIn, dateOut) => {
+            const inputs = document.querySelectorAll('input');
+            let checkIn, checkOut;
+
+            inputs.forEach(i => {
+                if (i.placeholder && i.placeholder.includes('Check In')) checkIn = i;
+                if (i.placeholder && i.placeholder.includes('Check Out')) checkOut = i;
+            });
+
+            if (checkIn) {
+                checkIn.value = dateIn;
+                checkIn.dispatchEvent(new Event('input', { bubbles: true }));
+                checkIn.dispatchEvent(new Event('change', { bubbles: true }));
+            }
+
+            if (checkOut) {
+                checkOut.value = dateOut;
+                checkOut.dispatchEvent(new Event('input', { bubbles: true }));
+                checkOut.dispatchEvent(new Event('change', { bubbles: true }));
+            }
+        }
+        """,
+        CHECKIN_DATE,
+        CHECKOUT_DATE
+    )
+
+    time.sleep(1)
+    print("Check-in and Check-out dates set")
+
+
+    # ---------------- SCREENSHOT ----------------
+    step4_path = f"{SCREENSHOT_DIR}/step4_accommodation.png"
+    page.screenshot(path=step4_path, full_page=True)
+
+    send_photo(
+        step4_path,
+        f"✅ STEP 4 OK – Accommodation selected\n{TEST_URL}\nChecked: {now_ist}"
+
+    )
+
+    #--- STEP 2: WAIT FOR FORM ----------
+    try:
+        page.wait_for_selector("input", timeout=15000)
+        print("Form loaded")
+    except TimeoutError:
+        send_message("❌ Registration form did not load")
+        browser.close()
+        exit(1)
+
+    # ---------- STEP 3: TAKE SCREENSHOT ----------
+    final_path = f"{SCREENSHOT_DIR}/register_page.png"
+    page.screenshot(path=final_path, full_page=True)
+
+    send_photo(
+        final_path,
+        f"✅ Registration page reached\n{TEST_URL}\nChecked: {now_ist}"
+    )
+
+    browser.close()
+    print("DONE")

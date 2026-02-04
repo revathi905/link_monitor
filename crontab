@@ -1,0 +1,4 @@
+0 */2 * * * python /app/checker.py >> /var/log/cron.log 2>&1
+45 10 * * * docker run --rm -v /home/$USER/link_monitor/screenshots:/app/screenshots link-monitor python /app/screenshot_checker.py >> /var/log/screenshot_checker.log 2>&1
+
+

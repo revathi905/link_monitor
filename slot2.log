@@ -1,0 +1,444 @@
+Traceback (most recent call last):
+  File "/app/screenshot_checker.py", line 658, in <module>
+    run_checker(TEST_URL)
+  File "/app/screenshot_checker.py", line 621, in run_checker
+    page.wait_for_load_state("networkidle")
+  File "/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9148, in wait_for_load_state
+    self._sync(self._impl_obj.wait_for_load_state(state=state, timeout=timeout))
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_page.py", line 572, in wait_for_load_state
+📅 Running DAY A (links 1–16)
+🔍 Checking URL: https://www.womenshealthconferences.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.womenshealthconferences.com
+Checked: 28-01-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Listener (In-Person)
+Pricing role selected: Listener (In-Person)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 7/18/2025
+✅ Check-out selected (JS): 7/20/2025
+✅ STEP 4 OK – Accommodation selected
+Check-in: 7/18/2025
+Check-out: 7/20/2025
+URL: https://www.womenshealthconferences.com
+Checked: 28-01-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: 2b44c7
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+Clicking Pay Now
+    return await self._main_frame.wait_for_load_state(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 273, in wait_for_load_state
+    return await self._wait_for_load_state_impl(state, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 301, in _wait_for_load_state_impl
+    await waiter.result()
+playwright._impl._errors.TimeoutError: Timeout 30000ms exceeded.
+📅 Running DAY B (links 17–32)
+🔍 Checking URL: https://www.mental-healthconferences.precisionglobalcon.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.mental-healthconferences.precisionglobalcon.com
+Checked: 31-01-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Exhibitor/Sponsor (Virtual)
+Pricing role selected: Exhibitor/Sponsor (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 08/19/2026
+✅ Check-out selected (JS): 08/21/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 08/19/2026
+Check-out: 08/21/2026
+URL: https://www.mental-healthconferences.precisionglobalcon.com
+Checked: 31-01-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: a236e5
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Exhibitor/Sponsor (Virtual)
+ 
+        🏨 Accommodation:
+       Single Occupancy
+       Check-in: 08/19/2026
+       Check-out: 08/21/2026
+🔍 Checking URL: https://www.pediatricsconferences.precisionglobalcon.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.pediatricsconferences.precisionglobalcon.com
+Checked: 31-01-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Exhibitor/Sponsor (Virtual)
+Pricing role selected: Exhibitor/Sponsor (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 08/19/2026
+✅ Check-out selected (JS): 08/21/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 08/19/2026
+Check-out: 08/21/2026
+URL: https://www.pediatricsconferences.precisionglobalcon.com
+Checked: 31-01-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: 8305e8
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Exhibitor/Sponsor (Virtual)
+ 
+        🏨 Accommodation:
+       Single Occupancy
+       Check-in: 08/19/2026
+       Check-out: 08/21/2026
+🔍 Checking URL: https://www.neonatalconference.precisionglobalcon.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.neonatalconference.precisionglobalcon.com
+Checked: 31-01-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Exhibitor/Sponsor (Virtual)
+Pricing role selected: Exhibitor/Sponsor (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 08/19/2026
+✅ Check-out selected (JS): 08/21/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 08/19/2026
+Check-out: 08/21/2026
+URL: https://www.neonatalconference.precisionglobalcon.com
+Checked: 31-01-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: 53fde5
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Exhibitor/Sponsor (Virtual)
+ 
+        🏨 Accommodation:
+       Single Occupancy
+       Check-in: 08/19/2026
+       Check-out: 08/21/2026
+🔍 Checking URL: https://www.cardiologyconferences.precisionglobalcon.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.cardiologyconferences.precisionglobalcon.com
+Checked: 31-01-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Exhibitor/Sponsor (Virtual)
+Pricing role selected: Exhibitor/Sponsor (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 08/21/2026
+✅ Check-out selected (JS): 08/23/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 08/21/2026
+Check-out: 08/23/2026
+URL: https://www.cardiologyconferences.precisionglobalcon.com
+Checked: 31-01-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: eb1af9
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Exhibitor/Sponsor (Virtual)
+ 
+        🏨 Accommodation:
+       Single Occupancy
+       Check-in: 08/21/2026
+       Check-out: 08/23/2026
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+📅 Running DAY B (links 17–32)
+🔍 Checking URL: https://www.mental-healthconferences.precisionglobalcon.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.mental-healthconferences.precisionglobalcon.com
+Checked: 02-02-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Oral Presenter (Virtual)
+Pricing role selected: Oral Presenter (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Triple Occupancy
+Resolved radio id: accomm_triple
+Accommodation selected successfully: Triple Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 08/19/2026
+✅ Check-out selected (JS): 08/21/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 08/19/2026
+Check-out: 08/21/2026
+URL: https://www.mental-healthconferences.precisionglobalcon.com
+Checked: 02-02-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: fc679d
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Oral Presenter (Virtual)
+ 
+        🏨 Accommodation:
+       Triple Occupancy
+       Check-in: 08/19/2026
+       Check-out: 08/21/2026
+🔍 Checking URL: https://www.pediatricsconferences.precisionglobalcon.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.pediatricsconferences.precisionglobalcon.com
+Checked: 02-02-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Oral Presenter (Virtual)
+Pricing role selected: Oral Presenter (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Triple Occupancy
+Resolved radio id: accomm_triple
+Accommodation selected successfully: Triple Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 08/19/2026
+✅ Check-out selected (JS): 08/21/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 08/19/2026
+Check-out: 08/21/2026
+URL: https://www.pediatricsconferences.precisionglobalcon.com
+Checked: 02-02-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: 3bfe78
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Oral Presenter (Virtual)
+ 
+        🏨 Accommodation:
+       Triple Occupancy
+       Check-in: 08/19/2026
+       Check-out: 08/21/2026
+🔍 Checking URL: https://www.neonatalconference.precisionglobalcon.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.neonatalconference.precisionglobalcon.com
+Checked: 02-02-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Oral Presenter (Virtual)
+Pricing role selected: Oral Presenter (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Triple Occupancy
+Resolved radio id: accomm_triple
+Accommodation selected successfully: Triple Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 08/19/2026
+✅ Check-out selected (JS): 08/21/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 08/19/2026
+Check-out: 08/21/2026
+URL: https://www.neonatalconference.precisionglobalcon.com
+Checked: 02-02-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: 311071
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Oral Presenter (Virtual)
+ 
+        🏨 Accommodation:
+       Triple Occupancy
+       Check-in: 08/19/2026
+       Check-out: 08/21/2026
+🔍 Checking URL: https://www.cardiologyconferences.precisionglobalcon.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.cardiologyconferences.precisionglobalcon.com
+Checked: 02-02-2026 01:35 PM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Oral Presenter (Virtual)
+Pricing role selected: Oral Presenter (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Triple Occupancy
+Resolved radio id: accomm_triple
+Accommodation selected successfully: Triple Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 08/21/2026
+✅ Check-out selected (JS): 08/23/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 08/21/2026
+Check-out: 08/23/2026
+URL: https://www.cardiologyconferences.precisionglobalcon.com
+Checked: 02-02-2026 01:35 PM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: c777ce
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Oral Presenter (Virtual)
+ 
+        🏨 Accommodation:
+       Triple Occupancy
+       Check-in: 08/21/2026
+       Check-out: 08/23/2026

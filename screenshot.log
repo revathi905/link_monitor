@@ -1,0 +1,790 @@
+Traceback (most recent call last):
+  File "/app/screenshot_checker.py", line 72, in <module>
+    page.screenshot(path=f"{SCREENSHOT_DIR}/{idx:02d}.png")
+  File "/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9815, in screenshot
+Telegram send_message status: 200
+Telegram response: {"ok":true,"result":{"message_id":39,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767238225,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+    self._sync(
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_page.py", line 814, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+Telegram send_message status: 200
+Telegram response: {"ok":true,"result":{"message_id":40,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767324624,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Traceback (most recent call last):
+  File "/app/screenshot_checker.py", line 72, in <module>
+    page.screenshot(path=f"{SCREENSHOT_DIR}/{idx:02d}.png")
+  File "/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9815, in screenshot
+    self._sync(
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_page.py", line 814, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+Traceback (most recent call last):
+  File "/app/screenshot_checker.py", line 72, in <module>
+    page.screenshot(path=f"{SCREENSHOT_DIR}/{idx:02d}.png")
+  File "/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9815, in screenshot
+Telegram send_message status: 200
+Telegram response: {"ok":true,"result":{"message_id":41,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767411024,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+    self._sync(
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_page.py", line 814, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+Telegram send_message status: 200
+Telegram response: {"ok":true,"result":{"message_id":42,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767497426,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Traceback (most recent call last):
+  File "/app/screenshot_checker.py", line 72, in <module>
+    page.screenshot(path=f"{SCREENSHOT_DIR}/{idx:02d}.png")
+  File "/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9815, in screenshot
+    self._sync(
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_page.py", line 814, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+Traceback (most recent call last):
+  File "/app/screenshot_checker.py", line 72, in <module>
+    page.screenshot(path=f"{SCREENSHOT_DIR}/{idx:02d}.png")
+  File "/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 9815, in screenshot
+Telegram send_message status: 200
+Telegram response: {"ok":true,"result":{"message_id":43,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767583823,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+    self._sync(
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_page.py", line 814, in screenshot
+    encoded_binary = await self._channel.send(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+Traceback (most recent call last):
+  File "/app/screenshot_checker.py", line 9, in <module>
+    from checker import get_links
+  File "/app/checker.py", line 89, in <module>
+    f"✅ Working websites ({len(working)}):\n"
+                                ^^^^^^^
+NameError: name 'working' is not defined. Did you mean: 'Warning'?
+Telegram: 200 {"ok":true,"result":{"message_id":309,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756792,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":310,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756793,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":311,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756794,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":313,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756809,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":315,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756818,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":317,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756830,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":319,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756839,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":321,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756849,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":323,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756858,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":325,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756867,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":327,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756876,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":329,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756885,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":331,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756894,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":333,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756903,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":335,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756912,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":337,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756921,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":339,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756930,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":341,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756943,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":343,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756952,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":345,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756961,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":347,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756968,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":349,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756983,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":351,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767756992,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":353,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757000,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":355,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757010,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":357,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757025,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":359,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757034,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":361,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757043,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":363,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757051,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":365,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757060,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":367,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757069,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":369,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757079,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":371,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757086,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":373,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757093,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":375,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767757102,"text":"\ud83d\udd0d Checking 33/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":429,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843162,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":430,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843163,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":431,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843164,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":433,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843173,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":435,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843183,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":437,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843196,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":439,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843205,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":441,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843215,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":443,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843224,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":445,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843233,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":447,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843242,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":449,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843251,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":451,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843260,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":453,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843269,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":455,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843278,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":457,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843287,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":459,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843296,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":461,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843305,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":463,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843314,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":465,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843324,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":467,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843330,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":469,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843339,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":471,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843348,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":473,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843357,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":475,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843366,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":477,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843375,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":479,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843384,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":481,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843393,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":483,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843402,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":485,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843411,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":487,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843420,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":489,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843429,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":491,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843436,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":493,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843443,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":495,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1767843452,"text":"\ud83d\udd0d Checking 33/33"}}
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+STEP 3: Selecting pricing role (radio button)
+Today's pricing role: Listener (Virtual)
+Pricing role selected: Listener (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Triple Occupancy
+Resolved radio id: accomm_triple
+Selecting accommodation via label click
+Accommodation selected successfully
+Check-in: 2026-02-08, Check-out: 2026-02-10
+Form loaded
+DONE
+Telegram: 200 {"ok":true,"result":{"message_id":573,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768015959,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":574,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768015960,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":575,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768015961,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":577,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768015971,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":579,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768015980,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":581,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768015990,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":583,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768015999,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":585,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016008,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":587,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016018,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":589,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016027,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":591,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016036,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":593,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016044,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":595,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016053,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":597,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016062,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":599,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016071,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":601,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016080,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":603,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016089,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":605,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016098,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":607,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016107,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":609,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016117,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":611,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016123,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":613,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016132,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":615,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016141,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":617,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016150,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":619,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016159,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":621,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016167,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":623,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016176,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":625,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016185,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":627,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016194,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":629,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016203,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":631,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016212,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":633,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016221,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":635,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016228,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":637,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016234,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":639,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768016242,"text":"\ud83d\udd0d Checking 33/33"}}
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+Telegram: 200 {"ok":true,"result":{"message_id":717,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768879972,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":718,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768879974,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":719,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768879974,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":721,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768879985,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":723,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768879994,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":725,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880003,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":727,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880012,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":729,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880022,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":731,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880033,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":733,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880042,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":735,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880051,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":737,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880060,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":739,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880069,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":741,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880078,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":743,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880088,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":745,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880096,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":747,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880105,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":749,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880115,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":751,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880124,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":753,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880134,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":755,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880140,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":757,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880149,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":759,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880161,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":761,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880170,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":763,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880181,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":765,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880190,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":767,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880198,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":769,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880207,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":771,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880216,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":773,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880224,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":775,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880233,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":777,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880244,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":779,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880251,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":781,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880258,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":783,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768880267,"text":"\ud83d\udd0d Checking 33/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":792,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966438,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":793,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966440,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":794,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966440,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":796,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966450,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":798,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966459,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":800,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966473,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":802,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966486,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":804,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966496,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":806,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966505,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":808,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966514,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":810,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966523,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":812,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966532,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":814,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966541,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":816,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966550,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":818,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966559,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":820,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966570,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":822,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966579,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":824,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966588,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":826,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966597,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":828,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966607,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":830,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966613,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":832,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966622,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":834,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966631,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":836,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966640,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":838,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966649,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":840,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966658,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":842,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966667,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":844,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966678,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":846,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966692,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":848,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966701,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":850,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966710,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":852,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966723,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":854,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966730,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":856,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966738,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":858,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1768966749,"text":"\ud83d\udd0d Checking 33/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":864,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052839,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":865,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052840,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":866,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052841,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":868,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052851,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":870,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052861,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":872,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052871,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":874,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052880,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":876,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052893,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":878,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052902,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":880,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052912,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":882,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052921,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":884,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052930,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":886,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052939,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":888,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052948,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":890,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052957,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":892,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052966,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":894,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052975,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":896,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052984,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":898,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769052993,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":900,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053003,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":902,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053009,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":904,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053018,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":906,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053027,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":908,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053036,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":910,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053045,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":912,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053054,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":914,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053063,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":916,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053072,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":918,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053081,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":920,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053090,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":922,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053099,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":924,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053108,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":926,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053115,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":928,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053121,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":930,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769053130,"text":"\ud83d\udd0d Checking 33/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":942,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139231,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":943,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139233,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":944,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139234,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":946,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139244,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":948,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139253,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":950,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139264,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":952,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139273,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":954,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139282,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":956,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139291,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":958,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139300,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":960,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139309,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":962,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139321,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":964,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139330,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":966,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139339,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":968,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139349,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":970,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139357,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":972,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139367,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":974,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139376,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":976,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139385,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":978,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139395,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":980,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139402,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":982,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139411,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":984,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139420,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":986,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139429,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":988,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139438,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":990,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139447,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":992,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139455,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":994,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139464,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":996,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139473,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":998,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139482,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1000,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139491,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1002,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139501,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1004,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139507,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1006,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139514,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1008,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769139523,"text":"\ud83d\udd0d Checking 33/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1316,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744055,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1317,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744056,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1318,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744057,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1320,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744067,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1322,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744076,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1324,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744085,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1326,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744095,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1328,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744109,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1330,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744119,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1332,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744128,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1334,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744137,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1336,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744145,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1338,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744154,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1340,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744163,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1342,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744173,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1344,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744182,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1346,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744191,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1348,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744200,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1350,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744209,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1352,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744219,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1354,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744226,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1356,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744234,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1358,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744243,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1360,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744252,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1362,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744261,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1364,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744270,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1366,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744279,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1368,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744288,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1370,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744297,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1372,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744305,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1374,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744314,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1376,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744324,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1378,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744331,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1380,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744338,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1382,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769744347,"text":"\ud83d\udd0d Checking 33/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1388,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830454,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1389,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830455,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1390,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830456,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1392,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830465,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1394,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830480,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1396,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830490,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1398,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830500,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1400,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830510,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1402,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830520,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1404,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830529,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1406,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830538,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1408,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830547,"text":"\ud83d\udd0d Checking 10/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1410,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830556,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1412,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830565,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1414,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830574,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1416,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830583,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1418,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830592,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1420,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830601,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1422,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830610,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1424,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830620,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1426,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830626,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1428,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830636,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1430,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830645,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1432,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830654,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1434,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830665,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1436,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830674,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1438,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830683,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1440,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830692,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1442,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830701,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1444,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830709,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1446,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830718,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1448,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830733,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1450,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830740,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1452,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830747,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1454,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1769830757,"text":"\ud83d\udd0d Checking 33/33"}}
+Unable to find image 'link-monitor:latest' locally
+docker: Error response from daemon: pull access denied for link-monitor, repository does not exist or may require 'docker login': denied: requested access to the resource is denied
+
+Run 'docker run --help' for more information
+📅 Running DAY B (links 17–32)
+🔍 Checking URL: https://www.addictionworldconference.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.addictionworldconference.com
+Checked: 02-02-2026 09:00 AM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Oral Presenter (Virtual)
+Pricing role selected: Oral Presenter (Virtual)
+STEP 4: Selecting accommodation
+Today's accommodation: Triple Occupancy
+Resolved radio id: accomm_triple
+Accommodation selected successfully: Triple Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 09/16/2025
+✅ Check-out selected (JS): 09/18/2025
+✅ STEP 4 OK – Accommodation selected
+Check-in: 09/16/2025
+Check-out: 09/18/2025
+URL: https://www.addictionworldconference.com
+Checked: 02-02-2026 09:00 AM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: 9de381
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Traceback (most recent call last):
+  File "/app/screenshot_checker.py", line 618, in <module>
+    run_checker(TEST_URL)
+  File "/app/screenshot_checker.py", line 567, in run_checker
+    pay_now.wait_for(state="visible", timeout=30000)
+  File "/usr/local/lib/python3.11/site-packages/playwright/sync_api/_generated.py", line 18074, in wait_for
+    self._sync(self._impl_obj.wait_for(timeout=timeout, state=state))
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_locator.py", line 710, in wait_for
+    await self._frame.wait_for_selector(
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("span#buttonText") to be visible
+
+📅 Running DAY A (links 1–16)
+🔍 Checking URL: https://www.publichealthworldconference.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.publichealthworldconference.com
+Checked: 03-02-2026 09:00 AM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Poster Presenter (In-Person)
+Pricing role selected: Poster Presenter (In-Person)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 07/15/2026
+✅ Check-out selected (JS): 07/17/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 07/15/2026
+Check-out: 07/17/2026
+URL: https://www.publichealthworldconference.com
+Checked: 03-02-2026 09:00 AM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: 4e5fae
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Poster Presenter (In-Person)
+ 
+        🏨 Accommodation:
+       Single Occupancy
+       Check-in: 07/15/2026
+       Check-out: 07/17/2026
+🔍 Checking URL: https://www.diabetesworldconference.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.diabetesworldconference.com
+Checked: 03-02-2026 09:00 AM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Poster Presenter (In-Person)
+Pricing role selected: Poster Presenter (In-Person)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 07/15/2026
+✅ Check-out selected (JS): 07/17/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 07/15/2026
+Check-out: 07/17/2026
+URL: https://www.diabetesworldconference.com
+Checked: 03-02-2026 09:00 AM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: ded6b4
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Poster Presenter (In-Person)
+ 
+        🏨 Accommodation:
+       Single Occupancy
+       Check-in: 07/15/2026
+       Check-out: 07/17/2026
+🔍 Checking URL: https://www.internationalobesityconference.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.internationalobesityconference.com
+Checked: 03-02-2026 09:00 AM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Poster Presenter (In-Person)
+Pricing role selected: Poster Presenter (In-Person)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 07/15/2026
+✅ Check-out selected (JS): 07/17/2026
+✅ STEP 4 OK – Accommodation selected
+Check-in: 07/15/2026
+Check-out: 07/17/2026
+URL: https://www.internationalobesityconference.com
+Checked: 03-02-2026 09:00 AM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: eddd02
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Poster Presenter (In-Person)
+ 
+        🏨 Accommodation:
+       Single Occupancy
+       Check-in: 07/15/2026
+       Check-out: 07/17/2026
+🔍 Checking URL: https://www.gynecologyworldconference.com
+Opening site...
+Clicked register using selector: a:has-text('Register')
+STEP 1.5: Waiting for registration form to appear
+Registration form detected
+STEP 2: Filling basic registration form (SAFE SELECTORS)
+✅ Country selected: India
+✅ Institution entered: pbi
+✅ STEP 2 OK – Basic registration form filled
+URL: https://www.gynecologyworldconference.com
+Checked: 03-02-2026 09:00 AM IST
+STEP 3: Selecting pricing role (radio button)
+Using DEFAULT role list
+Today's pricing role: Poster Presenter (In-Person)
+Pricing role selected: Poster Presenter (In-Person)
+STEP 4: Selecting accommodation
+Today's accommodation: Single Occupancy
+Resolved radio id: accomm_single
+Accommodation selected successfully: Single Occupancy
+Accommodation selected successfully
+📅 Selecting accommodation dates automatically
+✅ Check-in selected (JS): 7/18/2025
+✅ Check-out selected (JS): 7/20/2025
+✅ STEP 4 OK – Accommodation selected
+Check-in: 7/18/2025
+Check-out: 7/20/2025
+URL: https://www.gynecologyworldconference.com
+Checked: 03-02-2026 09:00 AM IST
+STEP 5: Checking for TEXT CAPTCHA
+🔐 CAPTCHA text found: 10027e
+✅ CAPTCHA filled successfully
+STEP 6: Clicking Proceed button
+STEP 7: Clicking Pay Now and capturing NEXT page
+>>> ENTERED STEP 7
+Clicking Pay Now
+Capturing payment page screenshot
+🧾 DAILY REGISTRATION SUMMARY
+
+        🔘 Register Button:
+       LINK_REGISTER
+
+       🎟  Pricing Option:
+       Poster Presenter (In-Person)
+ 
+        🏨 Accommodation:
+       Single Occupancy
+       Check-in: 7/18/2025
+       Check-out: 7/20/2025
+Telegram: 200 {"ok":true,"result":{"message_id":1572,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176013,"text":"\ud83d\ude80 DEBUG: screenshot_checker.py started"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1573,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176014,"text":"\ud83d\udfe2 Browser launched successfully"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1574,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176015,"text":"\ud83d\udd0d Checking 1/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1576,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176025,"text":"\ud83d\udd0d Checking 2/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1578,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176034,"text":"\ud83d\udd0d Checking 3/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1580,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176043,"text":"\ud83d\udd0d Checking 4/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1582,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176053,"text":"\ud83d\udd0d Checking 5/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1584,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176063,"text":"\ud83d\udd0d Checking 6/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1586,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176072,"text":"\ud83d\udd0d Checking 7/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1588,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176081,"text":"\ud83d\udd0d Checking 8/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1590,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176090,"text":"\ud83d\udd0d Checking 9/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1592,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176099,"text":"\ud83d\udd0d Checking 10/33"}}
+screenshot failed: Page.screenshot: Timeout 10000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+
+Telegram: 200 {"ok":true,"result":{"message_id":1593,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176113,"text":"Screenshot failed\n10. https://www.cosmetologyworldconference.com/\nStatus: YES\nChecked: 04-02-2026 09:03 AM IST","entities":[{"offset":22,"length":43,"type":"url"}],"link_preview_options":{"url":"https://www.cosmetologyworldconference.com/"}}}
+Telegram: 200 {"ok":true,"result":{"message_id":1594,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176117,"text":"\ud83d\udd0d Checking 11/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1596,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176138,"text":"\ud83d\udd0d Checking 12/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1598,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176147,"text":"\ud83d\udd0d Checking 13/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1600,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176159,"text":"\ud83d\udd0d Checking 14/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1602,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176168,"text":"\ud83d\udd0d Checking 15/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1604,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176177,"text":"\ud83d\udd0d Checking 16/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1606,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176186,"text":"\ud83d\udd0d Checking 17/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1608,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176195,"text":"\ud83d\udd0d Checking 18/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1610,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176202,"text":"\ud83d\udd0d Checking 19/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1612,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176211,"text":"\ud83d\udd0d Checking 20/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1614,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176222,"text":"\ud83d\udd0d Checking 21/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1616,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176231,"text":"\ud83d\udd0d Checking 22/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1618,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176240,"text":"\ud83d\udd0d Checking 23/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1620,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176249,"text":"\ud83d\udd0d Checking 24/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1622,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176264,"text":"\ud83d\udd0d Checking 25/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1624,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176273,"text":"\ud83d\udd0d Checking 26/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1626,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176282,"text":"\ud83d\udd0d Checking 27/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1628,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176291,"text":"\ud83d\udd0d Checking 28/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1630,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176300,"text":"\ud83d\udd0d Checking 29/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1632,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176311,"text":"\ud83d\udd0d Checking 30/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1634,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176318,"text":"\ud83d\udd0d Checking 31/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1636,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176325,"text":"\ud83d\udd0d Checking 32/33"}}
+Telegram: 200 {"ok":true,"result":{"message_id":1638,"from":{"id":8347404520,"is_bot":true,"first_name":"Link Status Monitor","username":"link_status_monitor_bot"},"chat":{"id":-1003625299691,"title":"PGC Sites Monitoring","type":"supergroup"},"date":1770176335,"text":"\ud83d\udd0d Checking 33/33"}}
