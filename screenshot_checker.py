@@ -104,7 +104,7 @@ except Exception as e:
     send_message("❌ SCRIPT CRASHED")
     send_message(str(e))
     send_message(traceback.format_exc())
-    sys.exit(1)''''
+    sys.exit(1)'''
 
 from playwright.sync_api import sync_playwright, TimeoutError
 import os
