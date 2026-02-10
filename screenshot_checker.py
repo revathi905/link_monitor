@@ -1,4 +1,4 @@
-'''from playwright.sync_api import sync_playwright, TimeoutError
+from playwright.sync_api import sync_playwright, TimeoutError
 import os
 import time
 import requests
@@ -10,7 +10,7 @@ from checker import get_links
 
 # ================= TELEGRAM CONFIG =================
 BOT_TOKEN = "8347404520:AAEeTkAPPKsMH-7DN5gJMqk7NFVapaok_aA"
-GROUP_CHAT_ID = -1003625299691   # supergroup ID
+GROUP_CHAT_ID = -5171687843  # supergroup ID
 
 def send_message(text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
@@ -104,9 +104,9 @@ except Exception as e:
     send_message("❌ SCRIPT CRASHED")
     send_message(str(e))
     send_message(traceback.format_exc())
-    sys.exit(1)'''
+    sys.exit(1)
 
-from playwright.sync_api import sync_playwright, TimeoutError
+'''from playwright.sync_api import sync_playwright, TimeoutError
 import os
 import time
 import requests
@@ -615,4 +615,4 @@ def run_checker(TEST_URL):
 if __name__ == "__main__":
     for TEST_URL in URLS_TO_CHECK:
         print(f"🔍 Checking URL: {TEST_URL}")
-        run_checker(TEST_URL)
+        run_checker(TEST_URL)'''
