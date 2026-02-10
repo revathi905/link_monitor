@@ -59,7 +59,9 @@ try:
             args=[
                 "--no-sandbox",
                 "--disable-dev-shm-usage",
-                "--disable-gpu"
+                "--disable-gpu",
+                "--single-process",
+                "--disable-setuid-sandbox"
             ]
         )
 
