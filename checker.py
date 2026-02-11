@@ -45,7 +45,7 @@ def get_links():
 
 # ===== TELEGRAM CONFIG =====
 BOT_TOKEN = "8347404520:AAEeTkAPPKsMH-7DN5gJMqk7NFVapaok_aA"
-CHAT_ID = "-1003625299691"
+CHAT_ID = "-5171687843"
 
 def send_telegram(message):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
