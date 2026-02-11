@@ -12,8 +12,6 @@ from checker import get_links
 BOT_TOKEN = "8347404520:AAEeTkAPPKsMH-7DN5gJMqk7NFVapaok_aA"
 GROUP_CHAT_ID = -5171687843  # supergroup ID
 
-send_message("🟢 screenshot_checker.py VERSION: 2026-02-10 FIXED")
-
 def send_message(text):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     try:
