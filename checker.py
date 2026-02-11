@@ -42,10 +42,8 @@ URLS = [
 
 def get_links():
     return URLS
-# ===========================
 
-TIMEOUT = 15
-
+# ===== TELEGRAM CONFIG =====
 BOT_TOKEN = "8347404520:AAEeTkAPPKsMH-7DN5gJMqk7NFVapaok_aA"
 CHAT_ID = "-1003625299691"
 
@@ -53,43 +51,19 @@ def send_telegram(message):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     requests.post(url, data={"chat_id": CHAT_ID, "text": message})
 
-from urllib.parse import urlparse
 
-  
-# ================= CHECK LOGIC =================
+# ===== CHECK LOGIC =====
 def check_url(page, url):
     try:
         page.goto(
             url,
             timeout=45000,
-            wait_until="load"   # IMPORTANT: not domcontentloaded
+            wait_until="load"
         )
         return True
     except Exception:
         return False
 
-'''def check_url(page, url):
-    try:
-        response = page.goto(
-            url,
-            timeout=15000,
-            wait_until="domcontentloaded"
-        )
-
-        if response and response.status < 500:
-            return True
-        return False
-
-    except Exception as e:
-        print(f"FAILED {url}: {type(e).__name__} - {e}")
-        return False'''
-
-
-
-
-# ================= MAIN =================
-working = []
-failed = []
 
 def check_with_retry(page, url, retries=2):
     for attempt in range(retries):
@@ -98,65 +72,53 @@ def check_with_retry(page, url, retries=2):
         print(f"Retrying {url} ({attempt + 1}/{retries})")
     return False
 
-'''with sync_playwright() as p:
-    browser = p.chromium.launch(
-        headless=True,
-        args=["--disable-blink-features=AutomationControlled"]
-    )
-    page = browser.new_page()
 
-    for url in URLS:
-        if check_url(page, url):
-            working.append(url)
-        else:
-            failed.append(url)'''
+# ===== MAIN EXECUTION FUNCTION =====
+def run_checker():
+    working = []
+    failed = []
 
-with sync_playwright() as p:
-    browser = p.chromium.launch(
-        headless=True,
-        args=["--disable-blink-features=AutomationControlled"]
-    )
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"]
+        )
 
-    for url in URLS:
-        page = browser.new_page()
-        try:
-            if check_with_retry(page, url):
-                working.append(url)
-            else:
-                failed.append(url)
-        finally:
-            page.close()
+        for url in URLS:
+            page = browser.new_page()
+            try:
+                if check_with_retry(page, url):
+                    working.append(url)
+                else:
+                    failed.append(url)
+            finally:
+                page.close()
 
-    browser.close()
-   
+        browser.close()
 
-ist = pytz.timezone("Asia/Kolkata")
-now = datetime.now(ist).strftime("%d-%m-%Y %I:%M %p IST")
+    ist = pytz.timezone("Asia/Kolkata")
+    now = datetime.now(ist).strftime("%d-%m-%Y %I:%M %p IST")
 
-# ✅ TELEGRAM MESSAGE FORMAT YOU WANT
-if failed:
-    message = (
-        "❌ SUMMARY REPORT\n"
-        f"Checked at: {now}\n\n"
-        "Down websites:\n"
-        + "\n".join(failed)
-    )
-else:
-    message = (
-        "✅ SUMMARY REPORT\n"
-        f"Checked at: {now}\n\n"
-        f"All {len(working)} websites are working fine"
-    )
+    if failed:
+        message = (
+            "❌ SUMMARY REPORT\n"
+            f"Checked at: {now}\n\n"
+            "Down websites:\n"
+            + "\n".join(failed)
+        )
+    else:
+        message = (
+            "✅ SUMMARY REPORT\n"
+            f"Checked at: {now}\n\n"
+            f"All {len(working)} websites are working fine"
+        )
 
-send_telegram(message)
+    send_telegram(message)
 
 
-
-
-
-
-
-
+# ===== IMPORTANT MAIN GUARD =====
+if __name__ == "__main__":
+    run_checker()
 
 
 
